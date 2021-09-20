@@ -130,23 +130,37 @@ header .links a {
     align-items: center;
 }
 
+#work h2 {
+    border-bottom: 2px solid #61dafb;
+    border-radius: .5rem;
+}
+
 .projects {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .project-box {
     margin: 1rem;
     width: 25rem;
     height: 25rem;
-    border: 1px solid #d90d84;
+    border-bottom: 2px solid #d90d84;
     border-radius: 2rem;
 }
 
+.box-1 {
+    background-image: url(./images/square\ boi@150x.png);
+    background-size: 25rem 25rem;
+}
 
+.box-2 {
+    background-image: url(./images/neotheater@150x.png);
+    background-size: 25rem 25rem;
+}
 
 .project-popup {
     width: 100%;
@@ -158,6 +172,9 @@ header .links a {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    background-color: #014a5ea1;
+    border-radius: 2rem;
+    
     opacity: 0;
 }
 
