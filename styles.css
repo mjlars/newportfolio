@@ -94,6 +94,7 @@ header .links a {
 #about .bio-skills .skills-list {
     width: 30rem;
     font-size: 2rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,6 +163,26 @@ header .links a {
     background-size: 25rem 25rem;
 }
 
+.box-3 {
+    background-image: url(./images/placeholder@150x.png);
+    background-size: 25rem 25rem;
+}
+
+.box-4 {
+    background-image: url(./images/placeholder@150x.png);
+    background-size: 25rem 25rem;
+}
+
+.box-5 {
+    background-image: url();
+    background-size: 25rem 25rem;
+}
+
+.box-6 {
+    background-image: url();
+    background-size: 25rem 25rem;
+}
+
 .project-popup {
     width: 100%;
     height: 100%;
@@ -172,7 +193,7 @@ header .links a {
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    background-color: #014a5ea1;
+    background-color: #000000d2;
     border-radius: 2rem;
     
     opacity: 0;
@@ -193,4 +214,30 @@ header .links a {
 
 .project-popup:hover {
     opacity: 1;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    background-color: #141414;
+    border-top: 4px solid #61dafb;
+    border-radius: 1rem; 
+    padding: 1rem;
+    align-items: center;
+}
+
+#contact h2 {
+    padding: 1rem;
+}
+
+#contact div {
+    font-size: 1.5rem;    
+    align-items: center;
+    text-align: center;
+}
+
+#contact div a {
+    padding: .5rem 1rem;
+    color: #61dafb;
 }
