@@ -25,7 +25,7 @@ vertical-align: baseline;
 }
 
 html {
-    background-color: #111;
+    background-color: rgb(10, 10, 10);
 }
 
 header {
@@ -34,9 +34,10 @@ header {
     background-color: #141414;
     display: flex;
     flex-wrap: wrap;
-    font-size: 2rem;
+    font-size: 1.75rem;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 
 header .name, .links {
@@ -120,6 +121,7 @@ header .links a {
 .box p {
     color: #61dafb;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 #work {
@@ -148,9 +150,10 @@ header .links a {
 .project-box {
     margin: 1rem;
     width: 25rem;
-    height: 25rem;
     border-bottom: 2px solid #d90d84;
     border-radius: 2rem;
+    background-position: center center;
+    aspect-ratio: 1 / 1;
 }
 
 .box-1 {
@@ -174,12 +177,12 @@ header .links a {
 }
 
 .box-5 {
-    background-image: url();
+    background-image: url(./images/placeholder@150x.png);
     background-size: 25rem 25rem;
 }
 
 .box-6 {
-    background-image: url();
+    background-image: url(./images/placeholder@150x.png);
     background-size: 25rem 25rem;
 }
 
